@@ -79,23 +79,24 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 3rem;
   text-align: center;
-  margin: 55px;
+  margin: 40px 0px;
 }
 
 .btn {
   padding: 10px 35px;
   background-color: transparent;
   border: 1px solid white;
-  color: wheat;
+  color: white;
   outline: none;
-  transition: 6s ease;
+  transition: 0.6s ease;
 }
 
 .btn:hover {
   cursor: pointer;
   background-color: white;
-  color: white;
-  box-shadow: 0 0 10px white;
+  color: black;
+  box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
+  font-weight: bold;
 }
 
 /* About */
@@ -132,23 +133,22 @@ html {
 #portfolio {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
+  align-items: center;
   padding: 20px;
 }
 
 .gallery {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
 }
 
 .gallery img {
-  width: 360px;
-  height: 240px;
+  width: 500px;
+  height: 375px;
   margin: 10px;
 }
 
