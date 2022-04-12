@@ -110,7 +110,10 @@ html {
 }
 
 .btn-projects {
-  padding: 10px 35px;
+  padding: 10px 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
   /* background-color: transparent; */
   border: 1px solid white;
   color: white;
@@ -181,14 +184,17 @@ html {
   padding: 20px;
 }
 
-.gallery {
+/* .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   box-sizing: border-box;
-}
+} */
 
 .gallery img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 550px;
   height: 600px;
   margin: 10px;
