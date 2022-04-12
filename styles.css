@@ -109,9 +109,26 @@ html {
   font-family: "Righteous", cursive;
 }
 
+.btn-projects {
+  padding: 10px 35px;
+  /* background-color: transparent; */
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  transition: 0.6s ease;
+  text-decoration: none;
+  font-family: "Righteous", cursive;
+}
+.btn-projects:hover {
+  cursor: pointer;
+  /* background-color: white; */
+  color: white;
+  box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
+  font-weight: bold;
+}
 .btn:hover {
   cursor: pointer;
-  background-color: white;
+  /* background-color: white; */
   color: black;
   box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
   font-weight: bold;
