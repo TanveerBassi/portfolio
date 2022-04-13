@@ -12,11 +12,8 @@ html {
 .navbar {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   background-color: rgba(0, 0, 0, 0.5);
   position: sticky;
-  /* top: 0; */
-  /* width: 100%; */
 }
 
 .navbar ul {
@@ -82,14 +79,6 @@ html {
   color: black;
 }
 
-.alt-headings {
-  font-family: "Righteous", cursive;
-  font-size: 3rem;
-  text-align: center;
-  margin: 40px 0px;
-  color: white;
-}
-
 .headings-first {
   font-family: "Righteous", cursive;
   font-size: 60px;
@@ -129,7 +118,7 @@ html {
 }
 .btn:hover {
   cursor: pointer;
-  color: black;
+  color: white;
   box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
   font-weight: bold;
 }
@@ -158,19 +147,6 @@ html {
   height: 400px;
 }
 
-#intro {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  padding: 10px;
-}
-
-#intro h2 {
-  font-family: "Righteous", cursive;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
 /* Portfolio Section */
 #portfolio {
   display: flex;
@@ -195,7 +171,6 @@ html {
 .row {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
 }
 
 .box {
