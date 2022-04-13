@@ -255,6 +255,11 @@ html {
   font-family: "Righteous", cursive;
 }
 
+.para-services {
+  color: black;
+  font-family: "Righteous", cursive;
+}
+
 @media screen and (max-width: 576px) {
   .navbar {
     flex-direction: column;
@@ -281,5 +286,22 @@ html {
     font-family: "Righteous", cursive;
     text-align: start;
     font-size: 28px;
+  }
+  .para-services {
+    color: black;
+    font-family: "Righteous", cursive;
+    font-size: 9px;
+  }
+  .headings {
+    font-family: "Righteous", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: black;
+  }
+  .gallery img {
+    width: 350px;
+    height: 400px;
+    margin: 5px;
   }
 }
