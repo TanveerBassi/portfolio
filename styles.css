@@ -222,6 +222,17 @@ html {
   margin: 20px 0px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Righteous", cursive;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
 .input {
   padding: 20px;
   margin: 15px;
