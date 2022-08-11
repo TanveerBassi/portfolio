@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +20,18 @@
         <li><a href="#about">About Me</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li>
+          <a href="https://github.com/TanveerBassi" target="_blank">GitHub</a>
+        </li>
+        <li><a href="mailto: tanveer13a551@gmail.com">E-Mail</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/tanveer-bassi-0abb80104/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li><a href="./cv/Resume Coding.pdf" target="_blank">CV</a></li>
       </ul>
     </nav>
     <section id="home">
@@ -38,7 +49,7 @@
       <h1 class="headings">ABOUT ME</h1>
       <div id="pic">
         <img src="./images/unnamed.jpg" alt="image of man" />
-        <div id="intro">
+        <div>
           <p class="para-fonts">
             Hi, I'm a full stack developer, currently studying at the University
             of Birmingham in their 6 month intensive coding Bootcamp. I love to
@@ -54,50 +65,38 @@
     </section>
 
     <section id="portfolio">
-      <h1 class="alt-headings">PORTFOLIO</h1>
+      <h1 class="headings-first">PORTFOLIO</h1>
+      <img
+        src="./images/buddy-up.png"
+        alt="refactor project"
+        width="600"
+        height="650"
+      />
       <div class="gallery">
-        <img
-          src="https://user-images.githubusercontent.com/24613646/88513122-916e6380-cf9c-11ea-89e4-c93b628fc830.png"
-          alt="refactor project"
-        />
+        <a href="https://github.com/roxywasiak/buddy-up" class="btn-projects"
+          >Github Repo
+        </a>
+        <img src="./images/quiz-app.png" alt="quiz-app" />
         <a
-          href="https://github.com/TanveerBassi/marketing-agency-refactor/tree/dev"
+          href="https://github.com/TanveerBassi/quiz-app/tree/dev"
           class="btn-projects"
           >Github Repo
         </a>
-        <img
-          src="https://www.tutorialstonight.com/assets/articles/password-generator-in-javascript.png"
-          alt="password generator"
-        />
+        <img src="./images/virtual-hol.png" alt="virtual-holiday" />
         <a
-          href="https://github.com/TanveerBassi?tab=repositories"
+          href="https://github.com/C-Sim/weather-dashboard/tree/dev"
           class="btn-projects"
           >Github Repo
         </a>
-        <img
-          src="https://i.ytimg.com/vi/QDMihYOsWFE/maxresdefault.jpg"
-          alt="javascript quiz"
-        />
+        <img src="./images/day-planner.png" alt="planner app" />
         <a
-          href="https://github.com/TanveerBassi?tab=repositories"
+          href="https://github.com/TanveerBassi/day-planner/tree/dev"
           class="btn-projects"
           >Github Repo
         </a>
-        <img
-          src="https://i0.wp.com/avecvalerie.com/wp-content/uploads/2020/09/img_6730.jpg?resize=819%2C1024&ssl=1"
-          alt="planner app"
-        />
+        <img src="./images/weather-dash.png" alt="weather app" />
         <a
-          href="https://github.com/TanveerBassi?tab=repositories"
-          class="btn-projects"
-          >Github Repo
-        </a>
-        <img
-          src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/30/posts/33893/final_image/app.png"
-          alt="weather app"
-        />
-        <a
-          href="https://github.com/TanveerBassi?tab=repositories"
+          href="https://github.com/TanveerBassi/weather-dashboard/tree/dev"
           class="btn-projects"
           >Github Repo
         </a>
@@ -120,10 +119,10 @@
         <div class="box">
           <img
             src="https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
-            alt=""
+            alt="image of HTML, CSS AND JS logos"
           />
           <h1 class="headings">Frontend Developer</h1>
-          <p class="para">
+          <p class="para-services">
             I'm a frontend developer that specializes in using HTML, CSS, and
             JavaScript. I also have a keen eye for design ensuring I deliver the
             highest quality outcome for my client. I love making websites that
@@ -131,9 +130,12 @@
           </p>
         </div>
         <div class="box">
-          <img src="./images/icons8-designer-skin-type-5-96.png" alt="" />
+          <img
+            src="./images/icons8-designer-skin-type-5-96.png"
+            alt="image of website designer"
+          />
           <h1 class="headings">Website Design</h1>
-          <p class="para">
+          <p class="para-services">
             I love creating websites that ensure each and every spec the client
             has requested has been surpassed, I am a measure twice, write once
             kind of coder, ensuring the customer will get a stylish website with
@@ -142,9 +144,12 @@
         </div>
 
         <div class="box">
-          <img src="/portfolio/images/icons8-ux-design-68.png" alt="" />
+          <img
+            src="https://i.pinimg.com/originals/99/0e/9c/990e9c3c77b2f18a171de0d34e6ca4cf.jpg"
+            alt="image of ux design"
+          />
           <h1 class="headings">UX Design</h1>
-          <p class="para">
+          <p class="para-services">
             My whole philosophy when it comes to UX/UI design is the create
             websites that are memorable and eye-catching. The kind of website
             you write home to mama about, ok maybe that was a bit too far but
@@ -155,29 +160,7 @@
       </div>
     </section>
     <section id="contact">
-      <h1 class="alt-headings">CONTACT</h1>
-      <form action="" class="form">
-        <input
-          type="text"
-          name=""
-          class="input"
-          placeholder="Enter Your Name"
-        />
-        <input
-          type="email"
-          name="email"
-          class="input"
-          placeholder="Enter Your E-Mail Address"
-        />
-        <textarea
-          name="msg"
-          id="msg"
-          cols="30"
-          rows="10"
-          placeholder="Enter Your Message"
-        ></textarea>
-        <input type="submit" value="SEND" id="send" />
-      </form>
+      <footer class="footer"><p>Coded with ♥ by Tanveer</p></footer>
     </section>
     <script src="myScript.js"></script>
   </body>

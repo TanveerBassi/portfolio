@@ -12,11 +12,8 @@ html {
 .navbar {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   background-color: rgba(0, 0, 0, 0.5);
   position: sticky;
-  /* top: 0; */
-  /* width: 100%; */
 }
 
 .navbar ul {
@@ -82,14 +79,6 @@ html {
   color: black;
 }
 
-.alt-headings {
-  font-family: "Righteous", cursive;
-  font-size: 3rem;
-  text-align: center;
-  margin: 40px 0px;
-  color: white;
-}
-
 .headings-first {
   font-family: "Righteous", cursive;
   font-size: 60px;
@@ -129,7 +118,7 @@ html {
 }
 .btn:hover {
   cursor: pointer;
-  color: black;
+  color: white;
   box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
   font-weight: bold;
 }
@@ -147,6 +136,7 @@ html {
   font-family: "Righteous", cursive;
   text-align: start;
   font-size: 28px;
+  padding: 10px;
 }
 
 #pic {
@@ -156,19 +146,6 @@ html {
 #pic img {
   width: 575px;
   height: 400px;
-}
-
-#intro {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  padding: 10px;
-}
-
-#intro h2 {
-  font-family: "Righteous", cursive;
-  font-size: 2rem;
-  margin-bottom: 20px;
 }
 
 /* Portfolio Section */
@@ -195,7 +172,6 @@ html {
 .row {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
 }
 
 .box {
@@ -246,6 +222,17 @@ html {
   margin: 20px 0px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Righteous", cursive;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
 .input {
   padding: 20px;
   margin: 15px;
@@ -278,4 +265,65 @@ html {
 .para {
   color: black;
   font-family: "Righteous", cursive;
+}
+
+.para-services {
+  color: black;
+  font-family: "Righteous", cursive;
+}
+
+@media screen and (max-width: 576px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  #pic img {
+    display: flex;
+    padding: 20px;
+    width: 200px;
+    height: 175px;
+  }
+
+  .para-fonts {
+    display: flex;
+    font-family: "Righteous", cursive;
+    text-align: start;
+    font-size: 28px;
+  }
+  .para-services {
+    color: black;
+    font-family: "Righteous", cursive;
+    font-size: 9px;
+  }
+  .headings {
+    font-family: "Righteous", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: black;
+  }
+  .gallery img {
+    width: 350px;
+    height: 400px;
+    margin: 5px;
+  }
 }
